@@ -1,27 +1,27 @@
-# Screenshot Evidence
+# Evidências em Capturas de Tela
 
-This folder contains the curated screenshots selected for the public portfolio version of the Investment Fund Analytics project.
+Esta pasta contém as capturas de tela selecionadas para a versão pública do projeto Analytics de Fundos de Investimento.
 
-Only the views below are published. Additional modules remain under development and are intentionally not exposed in detail.
+Somente as visões abaixo são publicadas. Módulos adicionais continuam em desenvolvimento e, intencionalmente, não são apresentados em detalhes.
 
-## Executive Overview
+## Visão Executiva
 
-Portfolio-level view covering NAV / AUM, liquidity, fund performance, portfolio evolution, main positions, and allocation by asset class.
+Visão no nível da carteira, cobrindo PL / NAV / AUM, liquidez, desempenho dos fundos, evolução da carteira, principais posições e alocação por classe de ativo.
 
-![Executive Overview](02-executive-portfolio-composition.png)
+![Visão Executiva](02-executive-portfolio-composition.png)
 
-## My Funds
+## Meus Fundos
 
-Fund monitoring view covering AUM, monthly net inflow, operational funds, attention indicators, concentration, and fund-level monitoring.
+Visão de acompanhamento dos fundos, cobrindo AUM, captação líquida mensal, fundos operacionais, indicadores de atenção, concentração e monitoramento no nível do fundo.
 
-![My Funds](03-my-funds-overview.png)
+![Meus Fundos](03-my-funds-overview.png)
 
-## Cash Statement
+## Extrato de Caixa
 
-Cash analysis view covering credits, debits, net variation, balance evolution, and cash flow composition.
+Visão de análise de caixa, cobrindo créditos, débitos, variação líquida, evolução do saldo e composição do fluxo de caixa.
 
-![Cash Statement](05-cash-statement-overview.png)
+![Extrato de Caixa](05-cash-statement-overview.png)
 
-## Public portfolio strategy
+## Estratégia do portfólio público
 
-The repository intentionally presents only selected analytical evidence. Other areas of the application — including cash quality, asset return, attribution, performance, movements, benchmarks, composition, historical monitoring, data reliability, and liquidity — are still evolving and are not fully published here.
+O repositório apresenta intencionalmente apenas evidências analíticas selecionadas. Outras áreas da aplicação — incluindo qualidade do caixa, retorno por ativo, atribuição de resultado, desempenho, movimentações, benchmarks, composição, acompanhamento histórico, confiabilidade dos dados e liquidez — continuam evoluindo e não são publicadas integralmente aqui.
