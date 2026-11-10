@@ -1,163 +1,163 @@
-# Investment Fund Analytics
+# Analytics de Fundos de Investimento
 
-![Status](https://img.shields.io/badge/status-in%20development-blue)
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-blue)
 ![Qlik](https://img.shields.io/badge/Qlik-Sense%20%7C%20Cloud-009845)
-![Analytics](https://img.shields.io/badge/domain-Investment%20Funds-1f4b99)
+![Analytics](https://img.shields.io/badge/dom%C3%ADnio-Fundos%20de%20Investimento-1f4b99)
 
-> Public portfolio case focused on investment fund analytics in Qlik. The repository intentionally exposes only selected views while additional analytical modules remain under development.
+> Estudo de caso público para portfólio, com foco em analytics de fundos de investimento no Qlik. O repositório apresenta intencionalmente apenas algumas visões selecionadas enquanto outros módulos analíticos continuam em desenvolvimento.
 
-## Overview
+## Visão geral
 
-This project presents a Qlik-based analytical application for monitoring investment funds, combining executive portfolio visibility, fund-level monitoring, cash analysis, performance indicators, liquidity metrics, allocation views, and operational status tracking.
+Este projeto apresenta uma aplicação analítica desenvolvida em Qlik para acompanhamento de fundos de investimento. A solução reúne visão executiva da carteira, monitoramento por fundo, análise de caixa, indicadores de desempenho, métricas de liquidez, visões de alocação e acompanhamento do status operacional.
 
-The public version is intentionally concise. It highlights three core analytical areas that best represent the current stage of the solution:
+A versão pública é intencionalmente objetiva. Ela destaca três áreas analíticas que representam melhor o estágio atual da solução:
 
-1. **Executive Overview**
-2. **My Funds**
-3. **Cash Statement**
+1. **Visão Executiva**
+2. **Meus Fundos**
+3. **Extrato de Caixa**
 
-## Business objective
+## Objetivo de negócio
 
-The solution is designed to support portfolio monitoring and fund management by consolidating key indicators in a single analytical environment.
+A solução foi desenvolvida para apoiar o acompanhamento de carteiras e a gestão de fundos por meio da consolidação dos principais indicadores em um único ambiente analítico.
 
-Current analytical coverage includes concepts such as:
+A cobertura analítica atual inclui conceitos como:
 
-- NAV / AUM monitoring
-- portfolio evolution
-- monthly and annual returns
-- 12-month return
-- volatility
-- CDI comparison
-- liquidity
-- asset allocation
-- concentration by fund
-- fund status and limits
-- cash inflows and outflows
-- cash balance evolution
+- Acompanhamento de PL / NAV / AUM
+- Evolução da carteira
+- Retornos mensais e anuais
+- Retorno em 12 meses
+- Volatilidade
+- Comparação com o CDI
+- Liquidez
+- Alocação de ativos
+- Concentração por fundo
+- Status e limites dos fundos
+- Entradas e saídas de caixa
+- Evolução do saldo de caixa
 
-## Selected dashboard views
+## Visões selecionadas dos dashboards
 
-### 1. Executive Overview
+### 1. Visão Executiva
 
-The Executive Overview consolidates the main portfolio indicators and provides a high-level view of fund performance and allocation.
+A Visão Executiva consolida os principais indicadores da carteira e apresenta uma visão geral do desempenho e da alocação dos fundos.
 
-The published view includes:
+A visão publicada inclui:
 
 - PL / NAV
-- D+1 liquidity
-- return by fund class
-- volatility
-- CDI comparison
-- 24-month portfolio evolution
-- top positions
-- portfolio composition by asset class
+- Liquidez D+1
+- Retorno por classe de fundo
+- Volatilidade
+- Comparação com o CDI
+- Evolução da carteira nos últimos 24 meses
+- Maiores posições
+- Composição da carteira por classe de ativo
 
-![Executive Overview](screenshots/02-executive-portfolio-composition.png)
+![Visão Executiva](screenshots/02-executive-portfolio-composition.png)
 
-### 2. My Funds
+### 2. Meus Fundos
 
-The My Funds view supports fund-level monitoring and concentration analysis.
+A visão Meus Fundos permite acompanhar os fundos individualmente e analisar a concentração do patrimônio.
 
-The current implementation includes:
+A implementação atual inclui:
 
-- total AUM
-- monthly net inflow
-- number of operational funds
-- funds requiring attention
-- AUM concentration by fund
-- fund-level status and limit monitoring
+- AUM total
+- Captação líquida mensal
+- Quantidade de fundos operacionais
+- Fundos que exigem atenção
+- Concentração de AUM por fundo
+- Acompanhamento de status e limites por fundo
 
-![My Funds](screenshots/03-my-funds-overview.png)
+![Meus Fundos](screenshots/03-my-funds-overview.png)
 
-### 3. Cash Statement
+### 3. Extrato de Caixa
 
-The Cash Statement view focuses on liquidity movements and cash behavior.
+A visão Extrato de Caixa concentra-se nas movimentações de liquidez e no comportamento do caixa.
 
-The current implementation includes:
+A implementação atual inclui:
 
-- credits in the period
-- debits in the period
-- net cash variation
-- current and previous balance
-- cash balance evolution
-- cash flow composition
-- credit versus debit comparison
+- Créditos no período
+- Débitos no período
+- Variação líquida de caixa
+- Saldo atual e anterior
+- Evolução do saldo de caixa
+- Composição do fluxo de caixa
+- Comparação entre créditos e débitos
 
-![Cash Statement](screenshots/05-cash-statement-overview.png)
+![Extrato de Caixa](screenshots/05-cash-statement-overview.png)
 
-## Modules in development
+## Módulos em desenvolvimento
 
-The application also includes additional analytical areas that are still being developed and are intentionally not fully exposed in this public repository.
+A aplicação também contempla outras áreas analíticas que ainda estão em desenvolvimento e que, intencionalmente, não são apresentadas integralmente neste repositório público.
 
-These modules include:
+Esses módulos incluem:
 
-- Cash Quality
-- Return by Asset
-- Attribution
-- Performance
-- Movements
-- Benchmark Analysis
-- Portfolio Composition
-- Period Statement
-- Monthly History
-- Data Reliability
-- Liquidity
+- Qualidade do Caixa
+- Retorno por Ativo
+- Atribuição de Resultado
+- Desempenho
+- Movimentações
+- Análise de Benchmark
+- Composição da Carteira
+- Extrato por Período
+- Histórico Mensal
+- Confiabilidade dos Dados
+- Liquidez
 
-Their presence in the solution roadmap reflects the broader objective of evolving the app from portfolio monitoring into a more complete fund analytics platform.
+A presença desses módulos no planejamento reflete o objetivo mais amplo de evoluir a aplicação de um ambiente de acompanhamento de carteira para uma plataforma mais completa de analytics de fundos.
 
-## Qlik development
+## Desenvolvimento Qlik
 
-The project includes work with:
+O projeto inclui atividades relacionadas a:
 
-- Qlik data modeling
-- calculated measures and KPIs
+- Modelagem de dados no Qlik
+- Medidas calculadas e KPIs
 - Set Analysis
-- variables and dynamic expressions
-- date-based portfolio analysis
-- benchmark logic
-- fund and class filters
-- analytical navigation across multiple business views
+- Variáveis e expressões dinâmicas
+- Análise de carteira por período
+- Lógica de benchmark
+- Filtros por fundo e classe
+- Navegação analítica entre diferentes visões de negócio
 
-## Analytical concepts
+## Conceitos analíticos
 
-A simplified analytical flow can be represented as:
+Um fluxo analítico simplificado pode ser representado da seguinte forma:
 
 ```text
-Fund / Portfolio Data
+Dados de Fundos / Carteira
         |
         v
-Qlik Data Preparation
+Preparação de Dados no Qlik
         |
         v
-Associative Data Model
+Modelo Associativo de Dados
         |
         v
-Business Rules & Measures
+Regras de Negócio e Medidas
         |
         v
-Portfolio / Fund Analytics
+Analytics de Carteira / Fundos
         |
-        +--> Executive Monitoring
-        +--> Fund Monitoring
-        +--> Cash Analysis
-        +--> Performance & Benchmark Modules
+        +--> Acompanhamento Executivo
+        +--> Monitoramento de Fundos
+        +--> Análise de Caixa
+        +--> Módulos de Desempenho e Benchmark
 ```
 
-## Portfolio scope
+## Escopo do portfólio
 
-This repository is a curated portfolio case and does not represent the complete internal application.
+Este repositório é um estudo de caso selecionado para portfólio e não representa a aplicação interna completa.
 
-The public version intentionally excludes:
+A versão pública exclui intencionalmente:
 
-- confidential source data
-- production credentials
-- internal connection details
-- proprietary data files
-- full client-specific implementation details
+- Dados confidenciais de origem
+- Credenciais de produção
+- Detalhes internos de conexão
+- Arquivos proprietários de dados
+- Detalhes completos de implementações específicas de clientes
 
-Only selected screenshots and generalized analytical documentation are published.
+Somente capturas de tela selecionadas e documentação analítica generalizada são publicadas.
 
-## Repository structure
+## Estrutura do repositório
 
 ```text
 .
@@ -169,8 +169,8 @@ Only selected screenshots and generalized analytical documentation are published
     └── 05-cash-statement-overview.png
 ```
 
-See [Screenshot Evidence](screenshots/README.md).
+Consulte [Evidências em Capturas de Tela](screenshots/README.md).
 
 ---
 
-**Portfolio project by Luiz Felipe Nunes — BI Developer | Qlik | SQL | Data Analytics**
+**Projeto de portfólio de Luiz Felipe Nunes — Desenvolvedor de BI | Qlik | SQL | Análise de Dados**
